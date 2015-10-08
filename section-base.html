@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<!--[if lte IE 6]>            <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IEMobile 7]>          <html class="no-js iem7" lang="en"> <![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>  <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>                <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>KSS: Living Style Guide</title>
+
+  <meta name="description" content="">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="public/kss.css">
+  
+</head>
+<body id="kss-node">
+
+<div class="kss-sidebar kss-style">
+  <header class="kss-header">
+    <h1 class="kss-doc-title">kss-node<br>Style Guide</h1>
+  </header>
+  <nav class="kss-nav">
+    <ul class="kss-nav__menu">
+      <li class="kss-nav__menu-item">
+        <a href="./">
+          <span class="kss-nav__ref">0</span
+          ><span class="kss-nav__name">Overview</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-base.html">
+          <span class="kss-nav__ref">1</span
+          ><span class="kss-nav__name">Base</span>
+        </a>
+        <ul class="kss-nav__menu-child">
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.base">
+                <span class="kss-nav__ref">1.1</span
+                ><span class="kss-nav__name">Base</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.colors">
+                <span class="kss-nav__ref">1.2</span
+                ><span class="kss-nav__name">Colors</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.mixins">
+                <span class="kss-nav__ref">1.3</span
+                ><span class="kss-nav__name">Mixins</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.normalize">
+                <span class="kss-nav__ref">1.4</span
+                ><span class="kss-nav__name">Normalize</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.print">
+                <span class="kss-nav__ref">1.5</span
+                ><span class="kss-nav__name">Print</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.typography">
+                <span class="kss-nav__ref">1.6</span
+                ><span class="kss-nav__name">Typography</span>
+              </a>
+            </li>
+            <li class="kss-nav__menu-item">
+              <a href="section-base.html#kssref-base.variables">
+                <span class="kss-nav__ref">1.7</span
+                ><span class="kss-nav__name">Variables</span>
+              </a>
+            </li>
+        </ul>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-components.html">
+          <span class="kss-nav__ref">2</span
+          ><span class="kss-nav__name">Components</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-layout.html">
+          <span class="kss-nav__ref">3</span
+          ><span class="kss-nav__name">Layout</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-state.html">
+          <span class="kss-nav__ref">4</span
+          ><span class="kss-nav__name">State</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-theme.html">
+          <span class="kss-nav__ref">5</span
+          ><span class="kss-nav__name">Theme</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-vendor.html">
+          <span class="kss-nav__ref">6</span
+          ><span class="kss-nav__name">Vendor</span>
+        </a>
+      </li>
+      <li class="kss-nav__menu-item">
+        <a href="section-shame.html">
+          <span class="kss-nav__ref">7</span
+          ><span class="kss-nav__name">Shame</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<article role="main" class="kss-main">
+
+      <div     id="kssref-base" class="kss-section kss-section--depth-1">
+
+    <div class="kss-style">
+      <h1 class="kss-title kss-title--level-1">
+        <a class="kss-title__permalink" href="#kssref-base">
+          <span class="kss-title__ref">1</span
+          >Base
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h1>
+
+
+      <div class="kss-description">
+        <p>Base styles.</p>
+
+      </div>
+    </div>
+
+
+      </div>
+      <section id="kssref-base.base" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.base">
+          <span class="kss-title__ref">1.1</span
+          >Base
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>base styles.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.colors" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.colors">
+          <span class="kss-title__ref">1.2</span
+          >Colors
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>The main color in Tieto is blue. There are three complimentary colors for use for different purposes. Usually every application have one main color, others are used for contrast for special elements.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box "></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue-lightest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #cce5f4
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue-lightest"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #9acaeb
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue-light"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #62b3e5
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue-darker
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #2c89c3
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue-darker"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue-dark
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #0065a0
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue-dark"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red-lightest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #eed9e1
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box red-lightest"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #f0b3ca
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box red-light"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #e56385
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box red"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red-darker
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #dd3a76
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box red-darker"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red-dark
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #d51067
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box red-dark"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green-lightest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #d7e8c4
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box green-lightest"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #bde093
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box green-light"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #6cc04a
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box green"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green-darker
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #28a834
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box green-darker"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green-dark
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #00833e
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box green-dark"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange-lightest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #ffe1c6
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box orange-lightest"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #ffbe85
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box orange-light"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #f78d2d
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box orange"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange-darker
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #e57a18
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box orange-darker"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange-dark
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #d75f00
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box orange-dark"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-lightest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #eeeeee
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-lightest"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #d2d2d2
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-light"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-lighter
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #c1c1c1
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-lighter"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #999999
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-darker
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #7b7b7b
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-darker"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-dark
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #5e5e5e
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-dark"></div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey-darkest
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #333333
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-darkest"></div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;styleguide-box &quot;&gt;&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.colors.brand" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.colors.brand">
+          <span class="kss-title__ref">1.2.1</span
+          >Brand Colour Spectrum
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>The main color in Tieto is blue. There are three complimentary colors for use for different purposes. Usually every application have one main color, others are used for contrast for special elements.
+The larger squares (light, medium, dark) are defined by the Brand Guidelines. Smaller (very light, lightly dark) are defined by the UX guidelines, for having more possibilities for fine tuning subtle design decissions. Please refer to Brand Design Guidelines for more information on use of colors for print material.The larger squares (light, medium, dark) are defined by the Brand Guidelines. Smaller (very light, lightly dark) are defined by the UX guidelines, for having more possibilities for fine tuning subtle design decissions. Please refer to Brand Design Guidelines for more information on use of colors for print material.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box small -lightest">.-lightest</div>
+<div class="styleguide-box large -light">.-light</div>
+<div class="styleguide-box large ">.</div>
+<div class="styleguide-box small -darker">.-darker</div>
+<div class="styleguide-box large -dark">.-dark</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #cce5f4 #9acaeb #62b3e5 #2c89c3 #0065a0
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box small blue-lightest">.blue-lightest</div>
+<div class="styleguide-box large blue-light">.blue-light</div>
+<div class="styleguide-box large blue">.blue</div>
+<div class="styleguide-box small blue-darker">.blue-darker</div>
+<div class="styleguide-box large blue-dark">.blue-dark</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .red
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #eed9e1 #f0b3ca #e56385 #dd3a76 #d51067
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box small red-lightest">.red-lightest</div>
+<div class="styleguide-box large red-light">.red-light</div>
+<div class="styleguide-box large red">.red</div>
+<div class="styleguide-box small red-darker">.red-darker</div>
+<div class="styleguide-box large red-dark">.red-dark</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .green
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #d7e8c4 #bde093 #6cc04a #28a834 #00833e
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box small green-lightest">.green-lightest</div>
+<div class="styleguide-box large green-light">.green-light</div>
+<div class="styleguide-box large green">.green</div>
+<div class="styleguide-box small green-darker">.green-darker</div>
+<div class="styleguide-box large green-dark">.green-dark</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .orange
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #ffe1c6 #ffbe85 #f78d2d #e57a18 #d75f00
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box small orange-lightest">.orange-lightest</div>
+<div class="styleguide-box large orange-light">.orange-light</div>
+<div class="styleguide-box large orange">.orange</div>
+<div class="styleguide-box small orange-darker">.orange-darker</div>
+<div class="styleguide-box large orange-dark">.orange-dark</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;styleguide-box small -lightest&quot;&gt;.-lightest&lt;/div&gt;
+&lt;div class=&quot;styleguide-box large -light&quot;&gt;.-light&lt;/div&gt;
+&lt;div class=&quot;styleguide-box large &quot;&gt;.&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -darker&quot;&gt;.-darker&lt;/div&gt;
+&lt;div class=&quot;styleguide-box large -dark&quot;&gt;.-dark&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.colors.additional" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.colors.additional">
+          <span class="kss-title__ref">1.2.2</span
+          >Additional colors
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>There are a few additional colors, outside the brand color spectrum for example very light blue for backgrounds.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box ">.</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .blue-bg-light
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #e9f0f5
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box blue-bg-light">.blue-bg-light</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;styleguide-box &quot;&gt;.&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.colors.greyscale" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.colors.greyscale">
+          <span class="kss-title__ref">1.2.3</span
+          >Greyscale
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p>There are multiple grayscale colors all for from light backgrounds to body text color.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box -lightest">.-lightest</div>
+<div class="styleguide-box small -light">.-light</div>
+<div class="styleguide-box small -lighter">.-lighter</div>
+<div class="styleguide-box small ">.</div>
+<div class="styleguide-box small -darker">.-darker</div>
+<div class="styleguide-box small -dark">-dark</div>
+<div class="styleguide-box small -darkest">-darkest</div>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .grey
+        </div>
+        <div class="kss-modifier__description kss-style">
+          #eeeeee #d2d2d2 #c1c1c1 #999999 #7b7b7b #5e5e5e #333333
+        </div>
+        <div class="kss-modifier__example">
+          <div class="styleguide-box grey-lightest">.grey-lightest</div>
+<div class="styleguide-box small grey-light">.grey-light</div>
+<div class="styleguide-box small grey-lighter">.grey-lighter</div>
+<div class="styleguide-box small grey">.grey</div>
+<div class="styleguide-box small grey-darker">.grey-darker</div>
+<div class="styleguide-box small grey-dark">grey-dark</div>
+<div class="styleguide-box small grey-darkest">grey-darkest</div>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;div class=&quot;styleguide-box -lightest&quot;&gt;.-lightest&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -light&quot;&gt;.-light&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -lighter&quot;&gt;.-lighter&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small &quot;&gt;.&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -darker&quot;&gt;.-darker&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -dark&quot;&gt;-dark&lt;/div&gt;
+&lt;div class=&quot;styleguide-box small -darkest&quot;&gt;-darkest&lt;/div&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.mixins" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.mixins">
+          <span class="kss-title__ref">1.3</span
+          >Mixins
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Our custom mixins.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.mixins.button-colorize" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.mixins.button-colorize">
+          <span class="kss-title__ref">1.3.1</span
+          >@button-colorize($color)
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+      <ul class="kss-parameters">
+        <li class="kss-parameters__item">
+          <code class="kss-parameters__name">$color</code>
+          <div class="kss-parameters__description">Button color.</div>
+        </li>
+      </ul>
+
+      <div class="kss-description">
+        <p>Creates button styling with the specified color.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.normalize" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.normalize">
+          <span class="kss-title__ref">1.4</span
+          >Normalize
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Normalize styles.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.print" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.print">
+          <span class="kss-title__ref">1.5</span
+          >Print
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Print styles.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.typography" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.typography">
+          <span class="kss-title__ref">1.6</span
+          >Typography
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Default font family for interfaces is Arial. The body text color is #333 (or darkest gray color as described above). The font size is of course variable but for text paragraphs 13px font size is recommended. Line height is dependent on the font sizes but for body text is 21px (160% of font size).</p>
+<p>For other purposes the Tieto brand font family Helvetica Neue can be used, but please keep in mind that it is not available on all computers. You can take use of existing Fonts.com license for serving Helvetica Neue as a web font. Please get in touch with Marketing contact persons for that.</p>
+
+      </div>
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Example
+        </div>
+        <div class="kss-modifier__example">
+          <h1>Heading 1</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+<h2>Heading 2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+<h3>Heading 3
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+<h4>Heading 4
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.&lt;/p&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.&lt;/p&gt;
+&lt;h3&gt;Heading 3
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.&lt;/p&gt;
+&lt;h4&gt;Heading 4
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non orci sit amet libero mattis hendrerit ut ut felis. Lectus turpis, vitae molestie est feugiat laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.&lt;/p&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.typography.links" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.typography.links">
+          <span class="kss-title__ref">1.6.1</span
+          >Links
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+    </div>
+
+      <div class="kss-modifier__wrapper">
+        <div class="kss-modifier__heading kss-style">
+          Examples
+        </div>
+        <div class="kss-modifier__default-name kss-style">
+          Default styling
+        </div>
+        <div class="kss-modifier__example">
+          <a class="" href="#">Here is a  link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .disabled
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Disabled link
+        </div>
+        <div class="kss-modifier__example">
+          <a class="disabled" href="#">Here is a disabled link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          .visited
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Visited link
+        </div>
+        <div class="kss-modifier__example">
+          <a class="visited" href="#">Here is a visited link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          :link
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Default link pseudo-selector
+        </div>
+        <div class="kss-modifier__example">
+          <a class="pseudo-class-link" href="#">Here is a pseudo-class-link link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          :visited
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Visited link pseudo-selector
+        </div>
+        <div class="kss-modifier__example">
+          <a class="pseudo-class-visited" href="#">Here is a pseudo-class-visited link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          :hover
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Hover pseudo-selector
+        </div>
+        <div class="kss-modifier__example">
+          <a class="pseudo-class-hover" href="#">Here is a pseudo-class-hover link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          :focus
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Focus pseudo-selector
+        </div>
+        <div class="kss-modifier__example">
+          <a class="pseudo-class-focus" href="#">Here is a pseudo-class-focus link.</a>
+        </div>
+        <div class="kss-modifier__name kss-style">
+          :active
+        </div>
+        <div class="kss-modifier__description kss-style">
+          Active pseudo-selector
+        </div>
+        <div class="kss-modifier__example">
+          <a class="pseudo-class-active" href="#">Here is a pseudo-class-active link.</a>
+        </div>
+      </div>
+
+      <div class="kss-markup kss-style">
+        <pre class="prettyprint linenums lang-html"><code data-language="html">&lt;a class=&quot;&quot; href=&quot;#&quot;&gt;Here is a  link.&lt;/a&gt;</code></pre>
+      </div>
+
+      </section>
+      <section id="kssref-base.typography.errors" class="kss-section kss-section--depth-3">
+
+    <div class="kss-style">
+      <h3 class="kss-title kss-title--level-3">
+        <a class="kss-title__permalink" href="#kssref-base.typography.errors">
+          <span class="kss-title__ref">1.6.2</span
+          >Labels and Errors
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h3>
+
+
+      <div class="kss-description">
+        <p><label class="label">Field label</label></p>
+<p><label class="label error">Field label error</label></p>
+<input value="Field error" class="error">
+      </div>
+    </div>
+
+
+      </section>
+      <section id="kssref-base.variables" class="kss-section kss-section--depth-2">
+
+    <div class="kss-style">
+      <h2 class="kss-title kss-title--level-2">
+        <a class="kss-title__permalink" href="#kssref-base.variables">
+          <span class="kss-title__ref">1.7</span
+          >Variables
+          <span class="kss-title__permalink-hash">#permalink</span>
+        </a>
+      </h2>
+
+
+      <div class="kss-description">
+        <p>Variables defined by TIUI guidelines.</p>
+
+      </div>
+    </div>
+
+
+      </section>
+</article>
+
+<!-- SCRIPTS -->
+<script src="public/kss.js"></script>
+<script src="public/prettify.js"></script>
+<script>
+  prettyPrint();
+</script>
+
+
+
+<!-- Automatically generated using <a href="https://github.com/kss-node/kss-node">kss-node</a>. -->
+</body>
+</html>
